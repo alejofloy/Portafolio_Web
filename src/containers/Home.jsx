@@ -1,13 +1,25 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Menu from '../components/Menu';
+import Interests from '../components/Interests';
+import InterestsItem from '../components/InterstsItem';
+import Categories from '../components/Categories';
 
 const Home = () => {
   return (
     <div>
       <Layout>
         <Menu />
-        <h1>inicio</h1>
+        <Categories />
+        <Interests>
+          <InterestsItem />
+          <InterestsItem />
+          <InterestsItem />
+          {/* <InterestsItem />
+          <InterestsItem />
+          <InterestsItem />
+          <InterestsItem /> */}
+        </Interests>
       </Layout>
     </div>
   );

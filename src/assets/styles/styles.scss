@@ -1,6 +1,15 @@
+@import "./vars.scss";
+
 body {
+  font-family: $themeFont;
   margin: 0 auto;
 }
+
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
 }
