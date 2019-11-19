@@ -15,10 +15,6 @@ const Home = () => {
           <InterestsItem />
           <InterestsItem />
           <InterestsItem />
-          {/* <InterestsItem />
-          <InterestsItem />
-          <InterestsItem />
-          <InterestsItem /> */}
         </Interests>
       </Layout>
     </div>
